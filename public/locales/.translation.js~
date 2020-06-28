@@ -1,0 +1,11 @@
+// de/translation.json
+
+{
+    "welcome": "Hallo React"
+}
+
+// en/translation.json
+
+{
+    "welcome": "Hello React"
+}
