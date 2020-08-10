@@ -9,16 +9,11 @@ import './fontawesome';
 
 //import gsap from 'gsap';
 
-
-
 require("storm-react-diagrams/dist/style.min.css");
 
 
-
-
 export default () => {
-    
-    
+
     //1) setup the diagram engine
     const engine = new DiagramEngine();
     engine.installDefaultFactories();
@@ -74,8 +69,6 @@ export default () => {
     const portJSasOut = boxAprenda.addOutPort(<div class="buttonl blue"  >SAS<div class="buttonl grey"><i className="ffa-li fa fa-square" /> </div> </div>);
     const portAprendaOut = boxAprenda.addOutPort(" ");
     boxAprenda.setPosition(650, 120);
-    
-    
     
 
     //PYTHON BOX

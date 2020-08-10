@@ -1,7 +1,8 @@
-/..env~
+
 /..gitignore~
 /.package.json~
 node_modules
 node_modules
 .env
 bfg-1.13.0.jar
+notes.txt
