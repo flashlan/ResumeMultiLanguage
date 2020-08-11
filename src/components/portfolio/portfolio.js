@@ -150,7 +150,7 @@ const Portfolio = () => {
 	      <span className="categories"><i className="fa fa-tag" />{t('apresenta:works.popup2tags')}</span>
 	      </div>
 	      <div className="link-box">
-	      <a target="_blank" href="https://evertonkozloski.com/sites/flashlanhouse/">{t('apresenta:works.popupviewsite')}</a>
+	      <a target="_blank" href="http://datapoint.net.br/flashlanhouse/">{t('apresenta:works.popupviewsite')}</a>
 	      <a className="popup-modal-dismiss">{t('apresenta:works.popupclose')}</a>
 	      </div>
 	    </div>{/* modal-02 End */}
@@ -162,7 +162,7 @@ const Portfolio = () => {
 	      <span className="categories"><i className="fa fa-tag" />{t('apresenta:works.popup3tags')}</span>
 	      </div>
 	      <div className="link-box">
-	      <a target="_blank" href="https://evertonkozloski.com/sites/malletnegocios/">{t('apresenta:works.popupviewsite')}</a>
+	      <a target="_blank" href="http://datapoint.net.br/malletnegocios/">{t('apresenta:works.popupviewsite')}</a>
 	      <a className="popup-modal-dismiss">{t('apresenta:works.popupclose')}</a>
 	      </div>
 	    </div>{/* modal-03 End */}
@@ -174,7 +174,7 @@ const Portfolio = () => {
 	      <span className="categories"><i className="fa fa-tag" />{t('apresenta:works.popup4tags')}</span>
 	      </div>
 	      <div className="link-box">
-	      <a target="_blank" href="https://evertonkozloski.com/sites/busca/">{t('apresenta:works.popupviewsite')}</a>
+	      <a target="_blank" href="http://datapoint.net.br/busca/">{t('apresenta:works.popupviewsite')}</a>
 	      <a className="popup-modal-dismiss">{t('apresenta:works.popupclose')}</a>
 	      </div>
 	    </div>{/* modal-04 End */}
