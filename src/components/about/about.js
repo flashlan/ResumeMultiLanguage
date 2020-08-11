@@ -1,10 +1,11 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import React, { Component, Suspense } from 'react';
+//import i18n from 'i18next';
+//import { initReactI18next } from 'react-i18next';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const About = () => {
-	const { t, i18n } = useTranslation(['translation', 'apresenta']);
+    //removed ', i18n' below afeter t
+	const { t } = useTranslation(['translation', 'apresenta']);
 	return (
 		<React.Fragment>
 			<section id="about">
@@ -22,8 +23,8 @@ const About = () => {
 								<p className="address">
 									<span>Everton Luiz Kozloski</span><br />
 									<span>13 BR 153<br />
-	              Mallet, PR 84570-000 BR
-	            </span><br />
+                                    Mallet, PR 84570-000 BR
+                                    </span><br />
 									<span>+55(42)98833-3305</span><br />
 									<span>datapoint.net.br</span>
 								</p>

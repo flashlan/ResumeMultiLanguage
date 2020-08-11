@@ -2,7 +2,7 @@ import ReactFlagsSelect from 'react-flags-select';
 import 'react-flags-select/css/react-flags-select.css';
 //import i18n from 'i18next';
 //import { initReactI18next } from 'react-i18next';
-import React, { Component, Suspense } from 'react';
+import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useTranslation } from 'react-i18next';
 

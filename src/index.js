@@ -1,5 +1,4 @@
 import React, { Suspense } from 'react';
-//import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -8,9 +7,8 @@ import './fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import './i18n';
-import DiagramWidget from './components/myroadmap/myroadmap';
+//import DiagramWidget from './components/myroadmap/myroadmap';
 import i18n from 'i18next';
-
 
 library.add(fab);
 

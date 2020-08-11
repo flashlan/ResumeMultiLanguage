@@ -1,12 +1,12 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import React, { Component, Suspense, useState }  from 'react';
+//import i18n from 'i18next';
+//import { initReactI18next } from 'react-i18next';
+import React, { useState }  from 'react';
 import { useTranslation } from 'react-i18next';
 import { Axios, db } from '../../firebase/firebaseConfig'
 //export default class Contactus extends Component {
 //  render() {
 const Contactus = () => {
-    const { t, i18n } = useTranslation(['translation', 'apresenta']);
+    const { t } = useTranslation(['translation', 'apresenta']);
     const [formData, setFormData] = useState({})
     
     const updateInput = e => {

@@ -1,18 +1,18 @@
 import createEngine, {  DiagramEngine, DiagramModel, DefaultNodeModel, LinkModel, DiagramWidget} from "storm-react-diagrams";
 //import { DemoWorkspaceWidget } from "../.helpers/DemoWorkspaceWidget";
 //import { action } from "@storybook/addon-actions";
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import React, { Component, Suspense }  from 'react';
+//import i18n from 'i18next';
+//import { initReactI18next } from 'react-i18next';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+//import { library } from '@fortawesome/fontawesome-svg-core';
+//import { fab } from '@fortawesome/free-brands-svg-icons';
 import '../../fontawesome';
 
 require("storm-react-diagrams/dist/style.min.css");
 
 export default () => {
-    const { t, i18n } = useTranslation(['translation', 'apresenta']);
+    const { t } = useTranslation(['translation', 'apresenta']);
     
     //1) setup the diagram engine
     const engine = new DiagramEngine();
@@ -44,8 +44,7 @@ export default () => {
     //1-box math
     const boxmath = new DefaultNodeModel(<div class="buttonc yellow"> <div class="buttonc blue"><i className="fas fa-square-root-alt fa-1x zoom fa-fw"  /> <i  className="fa fa-blank fa-1x "  />1 - {t('apresenta:roadmap.mathandstats')}<i  className="fa fa-chevron-right fa-1x fa-blank "  /><i  className="fa fa-blank fa-1x "  /><i  className="fa fa-blank fa-1x "  /></div></div>, "rgb(73, 67, 84)");
     const prtMath0In = boxmath.addInPort(<div class="buttontag"><i className="fa fa-tag " />  {t('apresenta:roadmap.algeb')}</div>);
-    const prtMath1In = boxmath.addInPort(<div class="buttontag"><i className="fa 
-    fa-tag " />  {t('apresenta:roadmap.calc')}</div>);
+    const prtMath1In = boxmath.addInPort(<div class="buttontag"><i className="fa fa-tag " />  {t('apresenta:roadmap.calc')}</div>);
     const prtMath3In = boxmath.addInPort(<div class="buttontag"><i className="fa fa-tag " /> {t('apresenta:roadmap.optim')} </div>);
     const prtMath4In = boxmath.addInPort(<div class="buttontag"><i className="fa fa-tag " /> {t('apresenta:roadmap.functions')} </div>);
     const prtMathIn = boxmath.addInPort(" ");
@@ -175,7 +174,7 @@ export default () => {
     const prtLangNetOut = boxLang.addOutPort(<div class="buttonr purpleinactive"  ><div class="buttonr greeninactive"><i className="ffa-li fa fa-square" /> </div> .Net</div>);
     const prtLangPhpOut = boxLang.addOutPort(<div class="buttonr purple"  ><div class="buttonr green"><i className="ffa-li fa fa-check-square fa-1x" /> </div> Php</div>);
     const prtLangNodeOut = boxLang.addOutPort(<div class="buttonr purple"  ><div class="buttonr green"><i className="ffa-li fa fa-check-square fa-1x" /> </div> Node.js</div>);
-    const prtLangRubyOut = boxLang.addOutPort(<div class="buttonr purpleinactive"  ><div class="buttonr greeninactive"><i className="ffa-li fa fa-square" /> </div> Ruby</div>);
+    const prtLangRubyOut = boxLang.addOutPort(<div class="buttonr purpleinactive"  ><div class="buttonr greeninactive"><i className="ffa-li fa fa-square" /> </div> Kotlin</div>);
     boxLang.setPosition(320, -370);
     
     //2 - LIBS BOX
@@ -190,7 +189,7 @@ export default () => {
     const prtDevIDEEclipseIn = boxDevIDE.addInPort(<div class="buttonr purple"  ><div class="buttonr green"><i className="ffa-li fa fa-check-square fa-1x" /> </div>Eclipse</div>);
     const prtDevIDEComposerIn = boxDevIDE.addInPort(<div class="buttonr purpleinactive"  ><div class="buttonr greeninactive"><i className="ffa-li fa fa-square" /> </div>Composer</div>);
     const prtDevIDECNpmIn = boxDevIDE.addInPort(<div class="buttonr purple"  ><div class="buttonr green"><i className="ffa-li fa fa-check-square fa-1x" /> </div>Npm</div>);
-    const prtDevIDEGemsIn = boxDevIDE.addInPort(<div class="buttonr purpleinactive"  ><div class="buttonr greeninactive"><i className="ffa-li fa fa-square" /> </div>Gems</div>);
+    const prtDevIDEGemsIn = boxDevIDE.addInPort(<div class="buttonr purpleinactive"  ><div class="buttonr greeninactive"><i className="ffa-li fa fa-square" /> </div>IntellijIDE</div>);
     const prtDevIDEMavenIn = boxDevIDE.addInPort(<div class="buttonr purpleinactive"  ><div class="buttonr greeninactive"><i className="ffa-li fa fa-square" /> </div>Maven</div>);
     const prtDEVsIDEOut = boxDevIDE.addOutPort(" ");
     boxDevIDE.setPosition(870, -390);

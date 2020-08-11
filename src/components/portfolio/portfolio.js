@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import React from 'react';
+//import i18n from 'i18next';
+//import { initReactI18next } from 'react-i18next';
 import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
-    const { t, i18n, ready } = useTranslation(['translation', 'apresenta']);
+    // removed ', i18n, ready' below
+    const { t } = useTranslation(['translation', 'apresenta']);
     return (
       <React.Fragment>
       
@@ -138,7 +139,7 @@ const Portfolio = () => {
 	      <span className="categories"><i className="fa fa-tag" />{t('apresenta:works.popup1tags')}</span>
 	      </div>
 	      <div className="link-box">
-	      <a target="_blank" href="https://evertonkozloski.com/wordpress/">{t('apresenta:works.popupviewsite')}</a>
+	      <a target="_blank" rel="noopener noreferrer" href="https://evertonkozloski.com/wordpress/">{t('apresenta:works.popupviewsite')}</a>
 	      <a className="popup-modal-dismiss">{t('apresenta:works.popupclose')}</a>
 	      </div>
 	    </div>{/* modal-01 End */}
@@ -228,10 +229,8 @@ const Portfolio = () => {
 	    </div>{/* modal-01 End */}
 	  </div> {/* row End */}
 	</section>
-       
-     
       </React.Fragment>
     );
-  //}
+  
 }
 export default Portfolio;
