@@ -7,6 +7,7 @@ notes.txt
 *~
 yarn.lock
 TODO
+package-lock.json
 
 # dependencies
 /node_modules
