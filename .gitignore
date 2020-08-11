@@ -5,6 +5,8 @@
 bfg-1.13.0.jar
 notes.txt
 *~
+yarn.lock
+TODO
 
 # dependencies
 /node_modules
