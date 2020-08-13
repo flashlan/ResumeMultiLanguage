@@ -1,10 +1,7 @@
-//import i18n from 'i18next';
-//import { initReactI18next } from 'react-i18next';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const About = () => {
-    //removed ', i18n' below afeter t
 	const { t } = useTranslation(['translation', 'apresenta']);
 	return (
 		<React.Fragment>
@@ -39,7 +36,6 @@ const About = () => {
 
 				</div>
 			</section>
-
 			{/*
 <div classname="row banner">
   <div classname="banner-text">

@@ -1,7 +1,5 @@
 import ReactFlagsSelect from 'react-flags-select';
 import 'react-flags-select/css/react-flags-select.css';
-//import i18n from 'i18next';
-//import { initReactI18next } from 'react-i18next';
 import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useTranslation } from 'react-i18next';
@@ -43,8 +41,6 @@ const Header = () => {
 							<li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/evertonkozloski"><i className="fab fa-facebook zoom" /></a></li>
 							<li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ev_kozloski"><i className="fab fa-twitter zoom" /></a></li>
 							<li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/everton-kozloski-53706028"><i className="fab fa-linkedin zoom" /></a></li>
-							{/*<li><a target="_blank" rel="noopener noreferrer" href="#"><i className="fa fa-instagram" /></a></li>*/}
-							{/*dribbble*/}
 							<li><a target="_blank" rel="noopener noreferrer" href="skype:flash-lan?userinfo"><i className="fa fa-skype zoom" /></a></li>
 						</ul>
 					</div>
