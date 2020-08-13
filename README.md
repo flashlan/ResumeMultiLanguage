@@ -16,9 +16,8 @@ ___
 
 Run `git clone https://github.com/flashlan/ResumeMultiLanguage`
 
-* Create .env from .env-example file
-* Write down your data from firebase project to make contact form work 
-* Edit images and text inside /public/locale folder with your own personal resume.
+* Create .env from .env-example file and fill with your data from firebase project to make contact form work 
+* Basically you can edit images, urls and text (inside /public/locale folder) to reflect your own personal resume and then work code at your taste.
 
 ___
 ### Dependencies
@@ -27,7 +26,7 @@ ___
    * @fortawesome/free-brands-svg-icons  (v5.13.0+)
    * axios  (v0.19.2+)
    * firebase  (v7.15.3+)
-   * i18next v(19.4.5+)
+   * i18next (v19.4.5+)
    * i18next-xhr-backend (v3.2.2+)
    * react (v16.13.1+)
    * react-dom (v16.13.1+)
