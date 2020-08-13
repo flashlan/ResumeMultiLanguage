@@ -23,16 +23,16 @@ Run `git clone https://github.com/flashlan/ResumeMultiLanguage`
 ___
 ### Dependencies
 
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "@fortawesome/free-brands-svg-icons": "^5.13.0",
-    "axios": "^0.19.2",
-    "firebase": "^7.15.3",
-    "i18next": "^19.4.5",
-    "i18next-xhr-backend": "^3.2.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-flags-select": "^1.1.12",
-    "react-i18next": "^11.5.0",
-    "react-scripts": "3.4.1",
-    "react-scroll": "^1.7.16",
-    "storm-react-diagrams": "^5.2.1"*
+   * @fortawesome/fontawesome-svg-core (v1.2.28+)
+   * @fortawesome/free-brands-svg-icons  (v5.13.0+)
+   * axios  (v0.19.2+)
+   * firebase  (v7.15.3+)
+   * i18next v(19.4.5+)
+   * i18next-xhr-backend (v3.2.2+)
+   * react (v16.13.1+)
+   * react-dom (v16.13.1+)
+   * react-flags-select  (v1.1.12+)
+   * react-i18next (v11.5.0+)
+   * react-scripts (v3.4.1+)
+   * react-scroll  (v1.7.16+)
+   * storm-react-diagrams  (v5.2.1+)
