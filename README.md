@@ -4,9 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Personal Resume Website With Multi Languages Support using React
 
-Multi Language support built with [React-i18Next](https://github.com/i18next/react-i18next).  library
+[Preview Here](https://evertonkozloski.com)
 
-It have a Developer Roadmap made with [storm-react-diagrams](https://github.com/projectstorm/react-diagrams)  and based on roadmaps from https://roadmap.sh.
+###Features
+
+* Multi Language support built with [React-i18Next](https://github.com/i18next/react-i18next).  library
+* A Developer Roadmap made with [storm-react-diagrams](https://github.com/projectstorm/react-diagrams)  and based on roadmaps from https://roadmap.sh.
 
 ___
 ### Install:
