@@ -14,7 +14,11 @@ Personal Resume Website With Multi Languages Support using React
 ___
 ### Install:
 
-Run `git clone https://github.com/flashlan/ResumeMultiLanguage`
+#### Getting Started
+
+* Run `git clone https://github.com/flashlan/ResumeMultiLanguage`
+* `cd ResumeMultiLanguage`
+* `npm start` or `yarn start`
 
 * Create .env from .env-example file and fill with your data from firebase project to make contact form work 
 * Basically you can edit images, urls and text (inside /public/locale folder) to reflect your own personal resume and then work code at your taste.
