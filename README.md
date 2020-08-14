@@ -20,7 +20,7 @@ ___
 * `cd ResumeMultiLanguage`
 * `npm start` or `yarn start`
 
-* Create .env from .env-example file and fill with your data from firebase project to make contact form work 
+* Create a `.env` from `.env-example` file and fill with your data from firebase project to make contact-form work 
 * Basically you can edit images, urls and text (inside /public/locale folder) to reflect your own personal resume and then work code at your taste.
 
 ___
