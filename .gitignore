@@ -8,6 +8,7 @@ notes.txt
 yarn.lock
 TODO
 package-lock.json
+resume.code-workspace
 
 # dependencies
 /node_modules
